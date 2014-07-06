@@ -10,7 +10,7 @@ define([
     el: $("#footer"),
 
     initialize: function() {
-return
+
       var that = this;
       var options = {query: 'sursonico'}
      
