@@ -1,1 +1,7 @@
 .project
+.externalToolBuilders/org.eclipse.wst.common.project.facet.core.builder.launch
+.settings/.jsdtscope
+.settings/org.eclipse.jst.j2ee.ejb.annotations.xdoclet.prefs
+.settings/org.eclipse.wst.common.project.facet.core.xml
+.settings/org.eclipse.wst.jsdt.ui.superType.container
+.settings/org.eclipse.wst.jsdt.ui.superType.name

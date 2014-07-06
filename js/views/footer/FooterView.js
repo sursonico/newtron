@@ -12,12 +12,12 @@ define([
     initialize: function() {
 
       var that = this;
-      var options = {query: 'sursonico'}
+      var options = {query: 'sursonico'};
      
 
       var onDataHandler = function(collection) {
           that.render();
-      }
+      };
 
       this.model = new OwnerModel(options);
       this.model.fetch({ success : onDataHandler, dataType: "jsonp"});

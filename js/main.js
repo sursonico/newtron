@@ -5,11 +5,12 @@
 // Their usage will become more apparent futher along in the tutorial.
 require.config({
   paths: {
-    jquery: 'libs/jquery/jquery-min',
-    underscore: 'libs/underscore/underscore-min',
-    crafty: 'libs/crafty/crafty',
-    backbone: 'libs/backbone/backbone-min',
-    templates: '../templates'
+    jquery		: 'libs/jquery/jquery-min',
+    underscore	: 'libs/underscore/underscore-min',
+    crafty		: 'libs/crafty/crafty',
+    backbone	: 'libs/backbone/backbone-min',
+    templates	: '../templates',
+    game		: 'models/game' 
   }
 
 });

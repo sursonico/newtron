@@ -6,9 +6,8 @@ define([
   'views/home/HomeView',
   'views/projects/ProjectsView',
   'views/about/AboutView',
-  'views/tron/TronView',
   'views/footer/FooterView'
-], function($, _, Backbone, HomeView, ProjectsView, AboutView, TronView, FooterView) {
+], function($, _, Backbone, HomeView, ProjectsView, AboutView, FooterView) {
   
   var AppRouter = Backbone.Router.extend({
     routes: {
@@ -45,10 +44,14 @@ define([
 
 
     app_router.on('route:showTron', function (actions) {
+    	
+    	
+    	require(['views/tron/TronView'], function(TronView){
+    		
+    		var tronView = new TronView();
+    		tronView.render();
+    	});
      
-       // We have no matching route, lets display the home page 
-        var tronView = new TronView();
-        tronView.render();
     });    
 
     app_router.on('route:defaultAction', function (actions) {
