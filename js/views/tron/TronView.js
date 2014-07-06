@@ -3,7 +3,7 @@ define([
   'underscore',
   'backbone',
   'models/game/Tron',
-  'text!templates/tron/TronTemplate.html'
+  'text!templates/tron/tronTemplate.html'
 ], function($, _, Backbone, TronModel, tronTemplate){
 
   var HomeView = Backbone.View.extend({
