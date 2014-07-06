@@ -12,7 +12,7 @@ define([
     initialize: function() {
 return
       var that = this;
-      var options = {query: 'thomasdavis'}
+      var options = {query: 'sursonico'}
      
 
       var onDataHandler = function(collection) {

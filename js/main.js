@@ -1,4 +1,4 @@
-// Author: Thomas Davis <thomasalwyndavis@gmail.com>
+// Author: Juan Cruz Talco <juancruztalco@gmail.com>
 // Filename: main.js
 
 // Require.js allows us to configure shortcut alias
