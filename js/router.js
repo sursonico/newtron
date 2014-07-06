@@ -63,6 +63,7 @@ define([
     // outside of an on-route function to have it loaded no matter which page is
     // loaded initially.
     var footerView = new FooterView();
+    footerView.render();
 
     Backbone.history.start();
   };
